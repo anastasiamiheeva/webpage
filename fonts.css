@@ -4,6 +4,11 @@
 }
 
 @font-face {
+  font-family: 'Montserrat-Light';
+  src: url("./fonts/Montserrat-Light.ttf")
+}
+
+@font-face {
   font-family: 'NotoSansJP-Light';
   src: url("./fonts/NotoSansJP-Light.otf")
 }
