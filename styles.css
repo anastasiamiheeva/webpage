@@ -39,6 +39,7 @@ body {
 .nav__item {
   font-size: 1.3vw;
   margin-right: 2.2vw;
+  cursor: pointer;
 }
 
 .nav__item:last-child {
@@ -83,6 +84,7 @@ body {
   background-color: #ef5b4b;
   padding: 1vw 5.5vw;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .about {
@@ -124,6 +126,7 @@ body {
 
 .description__text_color_red {
   color: red;
+  cursor: pointer;
 }
 
 .user-section {
@@ -206,6 +209,7 @@ body {
   color: #fff;
   background-color: #ee5b4c;
   font-size: 1.5vw;
+  cursor: pointer;
 }
 
 .footer {
@@ -346,6 +350,7 @@ body {
   color: #fff;
   background-color: #ee5b4c;
   font-size: 1.53vw;
+  cursor: pointer;
 }
 
 .copyright {

@@ -30,7 +30,7 @@
           requirements. We look forward to your submission. Good luck! The photo has to scale in the banner 
           area on the different screens.
         </p>
-        <button class="text__button">Sign up now</button>
+        <button class="text__button" id="sign-up">Sign up now</button>
       </div>
     </section>
     <section class="about">
@@ -57,55 +57,12 @@
         <h1>Our cheerful users</h1>
         <p>Attention! Sorting users by registration date</p>
       </div>
-      <div class="user-section__users users">
-        <div class="users__user">
-          <img src="/img/Max.png">
-          <h3>Maximillian</h3>
-          <p>Leading specialist of the Control Department</p>
-          <p title="controldepartment@gmail">controldepartment@gmail</p>
-          <p title="+380 50 678 03 24">+380 50 678 03 24</p>
-        </div>
-        <div class="users__user">
-          <img src="/img/Adolph.png">
-          <h3>Adolph Blaine Charles David Earl Matthew Matthew</h3>
-          <p>Contextual advertising specialist</p>
-          <p title="adolph.blainecharles@...">adolph.blainecharles@...</p>
-          <p title="+380 50 678 03 24">+380 50 678 03 24</p>
-        </div>
-        <div class="users__user">
-          <img src="/img/Eliz.png">
-          <h3>Elizabeth</h3>
-          <p>Frontend developer</p>
-          <p title="elizabet.front@gmail.com"></p>
-          <p title="+380 50 678 03 24">+380 50 678 03 24</p>
-        </div>
-        <div class="users__user">
-          <img src="/img/AlexJ.png">
-          <h3>Alexander Jayden</h3>
-          <p>Backend developer</p>
-          <p title="alexander.back@gmail.com">alexander.back@gmail.com</p>
-          <p title="+380 50 678 03 24">+380 50 678 03 24</p>
-        </div>
-        <div class="users__user">
-          <img src="/img/Noah.png">
-          <h3>Noah</h3>
-          <p>QA</p>
-          <p title="noah1998@gmail.com"></p>
-          <p title="+380 50 678 03 24">+380 50 678 03 24</p>
-        </div>
-        <div class="users__user">
-          <img src="/img/SmithW.png">
-          <h3>Liamgrievescasey Smith Wiam</h3>
-          <p>Lead designer</p>
-          <p title="liamgrievescasey.smith@...">liamgrievescasey.smith@...</p>
-          <p title="+380 50 678 03 24">+380 50 678 03 24</p>
-        </div>
-      </div>
+      <div class="user-section__users users" id="users"></div>
       <button class="user-section__button">Show more</button>
     </section>
   </main>
-  <footer class="footer">
-    <form class="form">
+  <footer class="footer" id="footer">
+    <form class="form" id="form">
       <h1 class="form__title">Register to get a work</h1>
       <p class="form__text">Attention! After successful registration and alert, update the 
         list of users in the block from the top
@@ -146,5 +103,7 @@
     </form>
   </footer>
   <div class="copyright">&#169; abz.agency specially for the test task</div>
+  <script src="index.js"></script>
+  <script src="scripts.js"></script>
 </body>
 </html>
