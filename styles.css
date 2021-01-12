@@ -242,6 +242,14 @@ body {
  margin: 1vw 0 2.1vw 1.7vw;
 }
 
+.form__input.success {
+  border: 2px solid #2ecc71;
+}
+
+.form__input.error {
+  border: 2px solid #e74c3c;
+}
+
 #email {
   margin: 1vw 0 2.5vw 1.7vw;
 }
